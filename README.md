@@ -1,4 +1,0 @@
-# pomodoroClock
-# pomodoroClock
-# pomodoroClock
-# pomodoroClock

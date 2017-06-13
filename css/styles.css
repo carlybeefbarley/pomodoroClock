@@ -1,0 +1,244 @@
+.wrapper{
+
+}
+
+body{
+  font-family: 'Rock Salt', cursive;
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/33/14/f4/3314f48c9664a9825b230ec7429857a1.jpg");
+  max-width:100%;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+h3{
+padding-top:15px;
+}
+
+h2#title1{
+  padding-left:5.5%;
+}
+
+h2#title2{
+    padding-left:15.5%;
+}
+
+a.btn{
+  border: 3px solid black;
+  			background-image: -webkit-linear-gradient(top, #f4f1ee, #fff);
+			background-image: linear-gradient(top, #f4f1ee, #fff);
+			border-radius: 50%;
+			box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, .3), inset 0px 4px 1px 1px white, inset 0px -3px 1px 1px rgba(204,198,197,.5);
+			float:left;
+			height: 70px;
+			margin: 0 30px 30px 0;
+			position: relative;
+			width: 70px;			
+			-webkit-transition: all .1s linear;
+			transition: all .1s linear;
+}
+
+a.btn:after{
+  			color:#afadac;
+			content: "";
+			display: block;
+			font-size: 30px;
+			height: 30px;
+			text-decoration: none;
+			text-shadow: 0px -1px 1px #bdb5b4, 1px 1px 1px white;
+			position: absolute;
+			width: 30px;
+}
+
+a.btn:hover{
+			background-image: -webkit-linear-gradient(top, #fff, #f4f1ee);
+			background-image: linear-gradient(top, #fff, #f4f1ee);
+			color:#e80602;
+}
+
+a#subtract5Clock:after{
+  			content: "-";
+			left: 19px;
+			top: 13px;
+}
+
+a#subtract5Clock:hover:after{
+			color:red;
+			text-shadow:0px 0px 6px #f94e66;
+		}
+
+a#add5Clock{
+  margin-left:80px;
+  margin-top:-52px;
+}
+
+a#subtract5Break{
+  margin-left:115px;
+}
+
+a#add5Break{
+  margin-left:60px;
+  margin-top:-51px;
+}
+
+
+a#add5Clock:after{
+  			content: "+";
+			left: 19px;
+			top: 13px;
+}
+
+a#add5Clock:hover:after{
+			color:red;
+			text-shadow:0px 0px 6px #f94e66;
+		}
+a#reset{
+  margin-top: -51px;
+}
+
+a#reset:after{
+  			content: "Reset";
+      font-size:.9em;
+			left: 10px;
+			top: 25px;
+}
+
+a#reset:hover:after{
+			color:red;
+			text-shadow:0px 0px 6px #f94e66;
+		}
+
+a#subtract5Break:after{
+  			content: "-";
+			left: 19px;
+			top: 13px;
+}
+
+a#subtract5Break:hover:after{
+			color:red;
+			text-shadow:0px 0px 6px #f94e66;
+		}
+
+a#add5Break:after{
+  			content: "+";
+			left: 19px;
+			top: 13px;
+}
+
+a#add5Break:hover:after{
+			color:red;
+			text-shadow:0px 0px 6px #f94e66;
+		}
+
+a#start:after{
+  			content: "start";
+      font-size:1.9em;
+			left: 14px;
+			top: 18px;
+}
+
+a#start:hover:after{
+			color:red;
+			text-shadow:0px 0px 6px #f94e66;
+		}
+
+a.btn:active{
+			background-image: -webkit-linear-gradient(top, #efedec, #f7f4f4);
+			background-image: linear-gradient(top, #efedec, #f7f4f4);
+			box-shadow: 0 3px 5px 0 rgba(0,0,0,.4), inset 0px -3px 1px 1px rgba(204,198,197,.5);
+		}
+
+a.btn:active:after{
+			color:#dbd2d2;
+			text-shadow: 0px -1px 1px #bdb5b4, 0px 1px 1px white;
+		}
+
+h1{
+  text-align:center;
+  font-size:3.3em;
+  padding-bottom:50px;
+}
+
+#timeDiv{
+  padding-left:20%;
+  padding-bottom:3%;
+}
+
+#breakDiv{
+  padding-left:10%;
+  padding-bottom:5%;
+}
+
+#workButtons{
+  padding-left: 2.5%;
+}
+
+#breakButtons{
+  padding-left: 4.5%;
+}
+
+a.start{
+  margin-left:27.5%;
+  padding-right:5%;
+  padding-left:5%;
+  padding-top:5%;
+  margin-top:3%;
+}
+
+.plate {
+  width: 410px;
+  margin: 10% auto;
+}
+.shadow {
+  color: #fff;
+  text-shadow:
+    -3px -3px 0 #222,
+    3px -3px 0 #222,
+    -3px 3px 0 #222,
+    3px 3px 0 #222,
+    4px 4px 0 #fff,
+    5px 5px 0 #fff,
+    6px 6px 0 #fff,
+    7px 7px 0 #fff;
+  line-height: 0.8em;
+  letter-spacing: 0.1em;
+  transform: scaleY(0.7);
+  -webkit-transform: scaleY(0.7);
+  -moz-transform: scaleY(0.7);
+  margin:0;
+  text-align: center;
+}
+.script {
+  font-family: "Seaweed Script";
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  position: relative;
+  margin:0;
+}
+.script span {
+  background-color: #222;
+  padding: 0 0.3em;
+}
+.script:before {
+  content:"";
+  display: block;
+  position: absolute;
+  z-index:-1;
+  top: 50%;
+  width: 100%;
+  border-bottom: 3px solid #fff;
+}
+.text1 {
+  font-size: 60px;
+}
+.text2 {
+  font-size: 169px;
+}
+.text3 {
+  font-size: 100px;
+}
+
+h2#timeType{
+  padding-right:500px;
+  font-size:2.5em;
+}

@@ -1,2 +1,36 @@
+<!DOCTYPE html>
 <html>
+    <head>
+        <script language="javaScript" type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script language="javaScript" type="text/javascript" src="js/javascript.js"></script>  
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel = "stylesheet" type = "text/css" href = "css/styles.css" >
+          <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+            <audio id = "buzzer" src="work.mp3" type="audio/mp3"> </audio>
+            <audio id = "freddy" src="breakFree.mp3" type="audio/mp3"> </audio>
+    </head>
+    <body>
+        <div class = "wrapper">
+    <h1><b>Work Work Work Work Work</b></h1>
+  <div id = "timeDiv">
+    <h2 id = "title1">Work Time</h2>
+    <div id="workButtons">
+    <a href="#" class = "btn" id = "subtract5Clock"><h5></h5></a>
+        <h2 id = "timeType"></h2>
+    <h3 id = "num">25</h3>
+    <a href="#" class = "btn" id = "add5Clock"></a>
+    <a href="#" class = "btn" id = "reset"></a>
+    </div><!--end #workButtons-->
+  </div><!--end #timeDiv-->
+  <div id="breakDiv">
+        <h2 id = "title2">Break Time</h2>
+    <div id="breakButtons">
+    <a href="#" class = "btn" id = "subtract5Break"></a>
+    <h3 id = "breakNum">5</h3>
+    <a href="#" class = "btn" id = "add5Break"></a>
+    </div><!--end #breakButtons-->
+  </div><!--end #breakDiv-->
+    <a href="#" class = "btn start" id = "start"></a>
+        </div><!--end .wrapper-->
+    </body>
 </html>
